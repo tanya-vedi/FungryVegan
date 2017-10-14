@@ -1,0 +1,26 @@
+<!doctype html>
+	<html>
+		<head>
+			<title>Result</title>
+			<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" }}>
+			<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<head>
+		<body vertical-align= "middle">
+			<div class="flexbox">
+			<div class="filler"></div>
+			<div class="card card-2">
+			<p class="finaltext">
+			{% for item in resultlist %}
+        		{{ item }}
+        		<br>
+    		{% endfor %}
+			</p></div>
+			<div class="filler"></div>
+			</div>
+		</body>
+</html>
+<!-- {{ url_for('static', filename='style.css') }} -->
+
+
+
+

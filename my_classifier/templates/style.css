@@ -1,0 +1,35 @@
+h1 {
+    color: #00aa00;
+}
+.card {
+  /*background: #fff;*/
+  border-radius: 2px;
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  /*width: 00px;*/
+  top:20px;
+}
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  width:80%;
+  padding: 10px;
+}
+.flexbox{
+	display: flex;
+	flex-wrap: wrap;
+}
+.filler{
+	width:10%;
+}
+.finaltext{
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+}
+body{
+	background: #DAD299;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #B0DAB9, #DAD299); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
